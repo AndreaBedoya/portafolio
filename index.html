@@ -83,11 +83,7 @@
                       <div id="fotoPerfil-1">
                         <div class="row imagen">
                           <div class="bordeSuperior"></div>
-                            <div class="col-lg-7"></div>
-                            <div class="col-lg-5">
-                              <h3>Sobre mi</h3>
-                            </div>
-                          
+                            <h3>Sobre mi</h3>
                           <div class="col-lg-5">
                             <img src="img/FotoPerfil.jpg" alt="foto perfil">
                           </div>
@@ -224,31 +220,63 @@
       <!-- --------------------------------------------------------------SECCION DEL PORTAFOLIO-----------------------------------------------------------  -->
       <section id="portafolio">
         <div class="container">
-          <div class="row">
-            <article class="col-lg-12">
-              <h2>Portafolio</h2>
-            </article>
-          </div>
-          <div class="row">
-            <article class="col-lg-6 d-flex justify-content-start">
-              <img src="img/labgestor.png" alt="labgestor">
-            </article>
-            <article class="col-lg-6 d-flex justify-content-center">
-              <img src="img/ayudantes.png" alt="ayudantes">
-            </article>
-          </div>
-          <div class="row">
-            <article class="col-lg-6 software">
-              <h3>Software</h3>
-              <p>Un software  que optimiza la gestión de muestras en laboratorios. Esta herramienta, con una interfaz intuitiva y una base de datos robusta, permite a los laboratorios gestionar sus muestras de manera eficiente, reducir errores y generar informes personalizados.</p>
-              <button>Ver Proyecto</button>
-            </article>
-            <article class="col-lg-6 prototipo ">
-              <h3>Prototipo</h3>
-              <p>Desarrollo del prototipo funcional de Ayudantes Express, una plataforma que conecta a profesionales con personas que necesitan servicios a domicilio.</p>
-              <button>Ver Proyecto</button>
-            </article>
-          </div>
+            <h2 >Portafolio</h2> 
+            <div class="row d-flex justify-content-center">
+              <!-- ------------------------------------------------ -->
+              <div class="card col-lg-3 cartas" style="width: 18rem;">
+                <img src="img/logomario.png" class="card-img-top" alt="logo ayudantes">
+                <div class="card-body">
+                  <h5 class="card-title">Diseño Seccion Animada</h5>
+                  <p class="card-text">En esta página encontrarás una sección con animaciones sobre la información de un equipo de trabajo.</p>
+                  <a href="https://andreabedoya.github.io/TEAM/" class="btn btn-primary">Ver Mas</a>
+                </div>
+              </div>
+              <!-- --------------------------------------------------- -->
+              <div class="card col-lg-3 cartas" style="width: 18rem;">
+                <img src="img/logorumbo.png" class="card-img-top" alt="logo rumbo">
+                <div class="card-body">
+                  <h5 class="card-title">Diseño de Pagina Web</h5>
+                  <p class="card-text">Rumbo la página que estabas buscando para cotizar tus viajes. <br> ¡Esta es tu oportunidad!</p>
+                  <a href="https://andreabedoya.github.io/Rumbo/" class="btn btn-primary">Ver Mas</a>
+                </div>
+              </div>
+              <!-- ----------------------------------------------------------- -->
+              <div class="card col-lg-3 cartas" style="width: 18rem;">
+                <img src="img/logomario.png" class="card-img-top" alt="logo mario">
+                <div class="card-body">
+                  <h5 class="card-title">Pagina Informativa</h5>
+                  <p class="card-text">En esta página encontrarás información sobre las pistas, los personajes y las habilidades del videojuego Mario Kart 8 Deluxe.</p>
+                  <a href="https://andreabedoya.github.io/Mario-Kart-8-Deluxe/" class="btn btn-primary">Ver Mas</a>
+                </div>
+              </div>
+              <!-- ----------------------------------------------------------------- -->
+              <div class="card col-lg-3 cartas" style="width: 18rem;">
+                <img src="img/logorumbo.png" class="card-img-top" alt="simulador de inversiones">
+                <div class="card-body">
+                  <h5 class="card-title">Simulador de inversiones</h5>
+                  <p class="card-text">Calcula lo que ganarás solo ingresando tus datos, la cantidad y los años de inversión.</p>
+                  <a href="https://andreabedoya.github.io/Simulador-de-Inversiones/" class="btn btn-primary">Ver Mas</a>
+                </div>
+              </div>
+              <!-- --------------------------------------------------------------------- -->
+              <div class="card col-lg-3 cartas" style="width: 18rem;">
+                <img src="img/logorumbo.png" class="card-img-top" alt="algoritmos con js">
+                <div class="card-body">
+                  <h5 class="card-title">Algoritmos con JS</h5>
+                  <p class="card-text">Resuelve operaciones matemáticas de forma rápida con solo ingresar los números.</p>
+                  <a href="https://andreabedoya.github.io/Algoritmos-JavaScript/" class="btn btn-primary">Ver Mas</a>
+                </div>
+              </div>
+              <!-- -------------------------------------------------------------------------- -->
+              <div class="card col-lg-3 cartas" style="width: 18rem;">
+                <img src="img/logorumbo.png" class="card-img-top" alt="manipulacion de figura">
+                <div class="card-body">
+                  <h5 class="card-title">Manipulacion del DOM</h5>
+                  <p class="card-text">Manipula una figura con solo hacer clic en cada uno de los botones.</p>
+                  <a href="https://andreabedoya.github.io/DOM-javascript/" class="btn btn-primary">Ver Mas</a>
+                </div>
+              </div>
+            </div>  
         </div>
        </section>
        <!-- --------------------------------------------------------------------SECCION DE EDUCACION--------------------------------------- -->
@@ -257,15 +285,6 @@
           <div class="row">
             <article class="col-lg-6">
               <h3 class="textoE">Educación</h3>
-            </article>
-            <article class="col-lg-6">
-              <h3 class="resumen1">RESUMEN</h3>
-              <h3 class="resumen2">RESUMEN</h3>
-              <h3 class="resumen3">RESUMEN</h3>
-            </article>
-          </div>
-          <div class="row">
-            <article class="col-lg-6 estudios col-md-12">
               <!-- --------------estudios 1-------------------------- -->
               <div class="row borde-estudios">
                 <article class="col-lg-2">
@@ -327,8 +346,11 @@
                 </article>
               </div>
             </article>
-            <!-- ---------------------------------------------TEMAS DE MI INTERES------------------------------------------------------ -->
-            <article class="temas col-lg-6">
+            <article class="col-lg-6">
+              <h3 class="resumen1">RESUMEN</h3>
+              <h3 class="resumen2">RESUMEN</h3>
+              <h3 class="resumen3">RESUMEN</h3>
+              <!-- ---------------------------------------------TEMAS DE MI INTERES------------------------------------------------------ -->
               <div class="row">
                 <article class="interes">
                   <h2>Temas de mi Interes</h2>
@@ -359,6 +381,7 @@
                 </article>
               </div>
             </article>
+          </div>
        </section>
         <!-- ------------------------------------------------------EXPERIENCIA------------------------------------------------------ -->
          <section id="experiencia">
