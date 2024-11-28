@@ -21,7 +21,8 @@ nav{
 }
 nav a.logo{
     margin: 2% 10%;
-}
+    margin-right: 2%;
+} 
 
 nav.navegacion{
     background: var(--primary-color);
@@ -113,8 +114,6 @@ article.foto-perfil{
     width: 85%;
     height: 100%;
     position: relative;
-    
-    
 }
 article.foto-perfil img{
     width: 48%;
@@ -430,6 +429,7 @@ section h2.textoE{
     padding-top: 3%;
 }
 /* -------------------------------------------------TEMAS DE MI INTERES---------------------------- */
+
 .interes h2{
     text-align: center;
     padding: 4% 0;
@@ -508,7 +508,7 @@ section .luna img{
     rotate: 20deg;
 }
 
-/* responsive */
+/* RESPONSIVE TABLET */
 
 @media screen and ( min-width:770px) and (max-width:990px){
     article.redes_sociales{
@@ -524,6 +524,179 @@ section .luna img{
     .slick-arrow {
         width: 5%;
         height: 12.5%;
+    }
+    .español img{
+        padding-left: 45%;
+    }
+    .español h3{
+        margin-left: 33%; 
+    }
+    .ingles h3{
+        margin-left: 33%; 
+    }
+    .ingles img{
+        padding-left: 45%;
+    }
+    .escritura h4{
+        text-align: center;
+    }
+    .conversacion h4{
+        text-align: center;
+    }
+    section h2.textoE{
+        margin-top: 8%;
+    }
+    .estudios img{
+        display: none;
+    }
+    .estudios h3{
+      margin-left: 0;  
+      text-align: center;
+    }
+    .estudios p{
+        margin-left: 0;
+        text-align: center;
+    }
+    .info-experiencia{
+        width: 94%;
+        margin-top: 0;
+    }
+    #experiencia img{
+        display: none;
+    }
+    #experiencia h3{
+        text-align: center;
+    }
+    #experiencia p{
+        text-align: center;
+    }
+    .interes h2{
+        text-align: center;
+        padding: 4% 0;
+        font-size: 4vh;
+    }
+    .temas img{
+        margin-left: 40%;
+        
+    }
+    .temas h3{
+        font-size: 4vh;
+        margin-top: 3%;
+        text-align: center;
+        margin-right: 23%;
+    }
+
+    section .img-pasatiempos img{
+        padding: 0 9%; 
+    }
+    section .passtime h3 {
+        font-size: 2vh;
+        margin: 0 10%;
+        display: inline-block;
+    }
+    .luna{
+        display: none;
+    }
+
+}
+
+/* RESPONSIVE CELULAR */
+
+@media screen and ( min-width:320px) and (max-width:770px){
+    article.redes_sociales{
+        width: 9%;
+        height: 28vh;
+    }
+    .imagen img{
+        display: none;
+    }
+    #hero{
+        text-align: center;
+    }
+    .slick-arrow {
+        width: 20%;
+        height:35px;
+    }
+    section .lenguajes-basicos h4{
+        font-size: 2vh;
+    }
+    .español img{
+        padding-left: 45%;
+    }
+    .español h3{
+        margin-left: 33%; 
+    }
+    .ingles h3{
+        margin-left: 33%; 
+    }
+    .ingles img{
+        padding-left: 45%;
+    }
+    .escritura h4{
+        text-align: center;
+    }
+    .conversacion h4{
+        text-align: center;
+    }
+    section h2.textoE{
+        margin-top: 8%;
+    }
+    article .resumen1, .resumen2, .resumen3{
+        display: none;
+    }
+
+    .estudios img{
+        display: none;
+    }
+    .estudios h3{
+      margin-left: 0;  
+      text-align: center;
+    }
+    .estudios p{
+        margin-left: 0;
+        text-align: center;
+    }
+    .info-experiencia{
+        width: 94%;
+        margin-top: 0;
+    }
+    #experiencia img{
+        display: none;
+    }
+    #experiencia h2{
+        text-align: center;
+        font-size: 3vh;
+    }
+    #experiencia h3{
+        text-align: center;
+    }
+    #experiencia p{
+        text-align: center;
+    }
+    .interes h2{
+        text-align: center;
+        padding: 4% 0;
+        font-size: 4vh;
+    }
+    .temas h3{
+        font-size: 4vh;
+        text-align: center;
+        margin-left: 0;
+    }
+    .temas img{
+        margin-left: 35%;
+    }
+    section#pasatiempos h2{
+        font-size: 3vh;
+    }
+    section .img-pasatiempos img{
+        display: block; 
+        margin: 6% 30%;  
+    }
+    section .passtime h3 {
+        font-size: 2vh;
+        display: none;
+        padding-left: 25px;
     }
     .luna{
         display: none;
