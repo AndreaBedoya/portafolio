@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <!-- ESTILOS CSS -->
+    <link rel="stylesheet" href="css/stylesModoNoche.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body> 
+<body id="body"> 
     <header>
         <nav class="navbar navbar-expand-lg navegacion">
             <div class=" container-fluid">
               <a class="navbar-brand logo" href="#"><img src="img/logo.png" alt="logo"></a>
+              <button type="submit" id="btn-modo"><i class="fa-thin fa-moon"></i></button>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -26,19 +28,22 @@
                     <a class="nav-link" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre mi</a>
+                    <a class="nav-link" href="#sobreMi">Sobre mi</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">habilidades</a>
+                    <a class="nav-link" href="#habilidades">habilidades</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Portafolio</a>
+                    <a class="nav-link" href="#idiomas">Idiomas</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Educación</a>
+                    <a class="nav-link" href="#portafolio">Portafolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Experiencia</a>
+                    <a class="nav-link" href="#educacion">Educación</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#experiencia">Experiencia</a>
                   </li>
                 </ul>
               </div>
@@ -69,11 +74,11 @@
                         <div class="row color">
                             <article class="col-lg-1 col-md-2 redes_sociales">
                                 <!-- WHATSAPP -->
-                                <img src="img/whatsapp.png" alt="whatsapp">
+                                <a href="https://wa.link/n6ahei"><img src="img/whatsapp.png" alt="whatsapp"></a>
                                 <!-- GITHUB -->
-                                <img src="img/github.png" alt="github">
+                                <a href="https://github.com/AndreaBedoya"><img src="img/github.png" alt="github"></a>
                                 <!-- LINKEDIN -->
-                                <img src="img/linkedin.png" alt="linkedin">
+                                <a href="https://www.linkedin.com/in/andrea-ni%C3%B1o-bedoya-1569b133a/"><img src="img/linkedin.png" alt="linkedin"></a>
                             </article>
                             <article class="col-lg-3 col-md-10 foto-perfil">
                                 <img src="img/FotoPerfil.jpg" alt="FotoPerfil">
@@ -82,12 +87,13 @@
                             </article>
                         </div>
                     </article>
-                    <article class=" d-flex justify-content-center col-lg-8 col-md-12 ">
+                    <!-- sobre mi -->
+                    <article class="col-lg-8 col-md-12 sobreMi ">
                       <div id="fotoPerfil-1">
                         <div class="row imagen">
                           <div class="bordeSuperior"></div>
                             <h3>Sobre mi</h3>
-                          <div class="col-lg-5">
+                          <div class="col-lg-5 col-md-12">
                             <img src="img/FotoPerfil.jpg" alt="foto perfil">
                           </div>
                           <div class="col-lg-7">

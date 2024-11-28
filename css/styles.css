@@ -151,7 +151,7 @@ article.foto-perfil button{
 }
 
 /* ------------------SOBRE MI----------------------------- */
-div#fotoPerfil-1 img{
+.imagen img{
     width: 300px;
     height: auto;
     border-radius: 25px;
@@ -233,7 +233,7 @@ section#habilidades h3 {
 }
 
 
-/* ----------------------------------------------------SECCIONDE LOS LEGUAJES---------------------------------- */
+/* ----------------------------------------------------SECCION DE LOS LEGUAJES---------------------------------- */
 
 section#lenguajes{
     padding: 40px 170px;
@@ -510,12 +510,23 @@ section .luna img{
 
 /* responsive */
 
-@media screen and ( min-width:320px) and (max-width:990px){
-    header nav button.navbar-toggler{
-        background: var(--second-color);
+@media screen and ( min-width:770px) and (max-width:990px){
+    article.redes_sociales{
+        width: 9%;
+        height: 28vh;
+    }
+    .imagen img{
+        display: none;
     }
     #hero{
         text-align: center;
+    }
+    .slick-arrow {
+        width: 5%;
+        height: 12.5%;
+    }
+    .luna{
+        display: none;
     }
 
 }
