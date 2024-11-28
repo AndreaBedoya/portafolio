@@ -4,7 +4,6 @@
 *{
     margin: 0;
     font-family: "Roboto", serif;
-    position: relative;
 }
 /*  VARIABLES DE COLOR */
 :root{
@@ -127,13 +126,6 @@ article.foto-perfil img{
     margin: 10% 25%;
     animation: pulsacion 2s ease-in;
 }
-@keyframes pulsacion {
-    to {
-        scale: 0.8;
-    } from {
-        scale: 1;
-    }
-}
 article.foto-perfil h3{
     color: white;
     font-size: 3vh;
@@ -190,12 +182,12 @@ div.imagen{
 }
 
 /* -----------------------------------------------------------------------SECCION DE LAS HABILIDADES----------------------------------- */
-section.habilidades {
+section#habilidades {
     padding: 50px 0;
     position: relative;
 }
 
-section.habilidades h3 {
+section#habilidades h3 {
     font-size: 48px;
     font-weight: 800;
     color: #8758FF;
@@ -263,10 +255,11 @@ section .lenguajes-basicos img{
 }
 /* CLASES OCULTAS */
 .slick-arrow{
-    width: 53px;
-    height: 67px;
+    width: 5%;
+    height: 25%;
     font-size: 1px;
     color: transparent;
+    
 }
 
 .slick-prev{
@@ -291,7 +284,6 @@ section .lenguajes-basicos img{
 
 /* -----------------------------------------------------------------IDIOMAS---------------------------------------------------- */
 section#idiomas{
-    align-items: start;
     margin: 5% 0%;
 }
 
@@ -313,6 +305,7 @@ article h3.texto-idiomas{
     font-size: 5vh;
 }
 /* ----ESPAÑOL---- */
+
 .español h3{
     background: linear-gradient(135deg, #5CB8E4, #33667ee8);
     text-align: center;
@@ -322,7 +315,9 @@ article h3.texto-idiomas{
     padding: 2% 8%;
     font-size: 3vh;
     margin-bottom: 7%;
+    margin-left: 25%; 
 }
+
 .escritura h4{
     font-size: 3vh;
     padding-top: 5%;
@@ -330,7 +325,7 @@ article h3.texto-idiomas{
 
 .conversacion h4{
     font-size: 3vh;
-    margin: 5% 0%;
+    margin: 5% 0%; 
 }
 
 /* -----INGLES------ */
@@ -343,6 +338,7 @@ article h3.texto-idiomas{
     padding: 2% 8%;
     font-size: 3vh;
     margin-bottom: 7%;
+    margin-left: 25%;
 }
 
 /* --------------------------------------------------------------SECCION DEL PORTAFOLIO----------------------------------------------------------- */
@@ -405,10 +401,11 @@ article .resumen3{
     -webkit-text-stroke: 2px rgba(0, 0, 0, 0.514); 
     text-transform: uppercase;
 }
-section h3.textoE{
+section h2.textoE{
     font-size: 6vh;
     text-align: center;
-    margin: 5% 0%;
+    margin-top:25%;
+    margin-bottom: 5%;
 }
 .estudios{
     margin-top: -14%;
@@ -432,8 +429,8 @@ section h3.textoE{
     margin-left: -50%;
     padding-top: 3%;
 }
-
-.temas h2{
+/* -------------------------------------------------TEMAS DE MI INTERES---------------------------- */
+.interes h2{
     text-align: center;
     padding: 4% 0;
     font-size: 4vh;
@@ -450,19 +447,13 @@ section h3.textoE{
     margin-left: 20%;
     
 }
-/* ------------------------------------------------------SECCION  DE LOS TEMAS DE MI INTERES--------------------------- */
-section#experiencia{
-    position: relative;
-}
-
+/* ------------------------------------------------------SECCION  DE LA EXPERIENCIA--------------------------- */
 .info-experiencia{
     background: var(--primary-color);
-    position: absolute;
     margin-left: 3%;
-    width: 620px;
-    height: 620px;
+    width: 40%;
+    height: auto;
     margin-top: -20%;
-    margin-bottom: 80%;
 }
 
 #experiencia h2{
@@ -472,7 +463,6 @@ section#experiencia{
 }
 
 #experiencia img{
-    margin-left: 45%;
     padding: 30px 0px;
 }
 
@@ -491,8 +481,7 @@ section#experiencia{
 
 /* -----------------------------------------------------------------SECCION DE MIS PASATIEMPOS------------------------------- */
 section#pasatiempos{
-    position: relative;
-    margin-top: 15%;
+    margin-top: 2%;
     margin-bottom: 10%;
 }
 
