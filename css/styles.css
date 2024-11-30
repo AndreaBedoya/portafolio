@@ -23,6 +23,10 @@ nav a.logo{
     margin: 2% 10%;
     margin-right: 2%;
 } 
+nav a i{
+    color: #5CB8E4;
+    font-size: 3vh;
+}
 
 nav.navegacion{
     background: var(--primary-color);
@@ -351,6 +355,36 @@ section#portafolio h2{
     text-shadow: 2px 5px 7px var(--second-color);
 }
 
+section#portafolio .team{
+    text-align: center;
+    font-size: 6vh;
+    color: #ff6500;
+    padding-top: 15px;
+}
+
+section#portafolio .simulador{
+    text-align: center;
+    font-size: 4vh;
+    color: #6554AF;
+    padding-top: 15px;
+    font-weight: 600;
+}
+section#portafolio .algoritmos{
+    text-align: center;
+    font-size: 4vh;
+    color: aqua;
+    padding-top: 15px;
+    font-weight: 600;
+}
+section#portafolio .manipulacion{
+    text-align: center;
+    font-size: 3vh;
+    color: blue;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+
 section#portafolio img{
     margin: 6% 0%;
 }
@@ -617,8 +651,8 @@ section .luna img{
         text-align: center;
     }
     .slick-arrow {
-        width: 20%;
-        height:35px;
+        width: 5%;
+        height:19%;
     }
     section .lenguajes-basicos h4{
         font-size: 2vh;
