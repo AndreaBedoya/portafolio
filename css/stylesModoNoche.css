@@ -21,10 +21,11 @@ nav{
 }
 nav a.logo{
     margin: 2% 10%;
-}
+    margin-right: 2%;
+} 
 
-.noche nav.navegacion{
-    background: #fff;
+nav.navegacion{
+    background: black;
 }
 
 nav.navegacion ul li a{
@@ -84,6 +85,9 @@ section article h1{
 
 /* SECCIONES DEL MAIN */
 /* ----------------------------------------------------------------------SECCION DE LAS REDES Y SOBRE MI ---------------------------------------------*/
+section#sobreMi{
+    background: black;
+}
 .informacion{
     position: relative;
 }
@@ -96,13 +100,12 @@ article.redes_sociales{
     margin-top: -30px;
 }
 
-article.redes_sociales img{
-    width: 40px;
-    height: 40px;
+article.redes_sociales i{
+    color: white;
+    font-size: 40px;
     margin-top: 33px;
     margin-left: 3px;
     margin-right: 3px;
-
 
 }
 /* -----------------------DESCARGAR HOJA DE VIDA--------- */
@@ -113,8 +116,6 @@ article.foto-perfil{
     width: 85%;
     height: 100%;
     position: relative;
-    
-    
 }
 article.foto-perfil img{
     width: 48%;
@@ -151,7 +152,7 @@ article.foto-perfil button{
 }
 
 /* ------------------SOBRE MI----------------------------- */
-div#fotoPerfil-1 img{
+.imagen img{
     width: 300px;
     height: auto;
     border-radius: 25px;
@@ -169,20 +170,23 @@ div.imagen h3{
     font-size: 4vh;
     font-weight: 700;
     padding-top: 20px;
+    color: white;
 }
 div.imagen p{
     margin: 20px 50px;
     font-size: 18px;
+    color: white;
 }
 
 div.imagen{
-    background: rgba(135, 88, 255, 0.44);
+    background: #8758FF;
     margin: 50px 0px;
     border-radius: 25px;
 }
 
 /* -----------------------------------------------------------------------SECCION DE LAS HABILIDADES----------------------------------- */
 section#habilidades {
+    background: black;
     padding: 50px 0;
     position: relative;
 }
@@ -190,7 +194,7 @@ section#habilidades {
 section#habilidades h3 {
     font-size: 48px;
     font-weight: 800;
-    color: #8758FF;
+    color: #ffffff;
     text-align: center;
     margin-bottom: 80px;
 }
@@ -199,16 +203,6 @@ section#habilidades h3 {
     position: relative;
     text-align: center;
     margin-bottom: 30px;
-}
-
-.habilidad .mancha {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 160px;
-    height: 160px;
-    z-index: -1; 
 }
 
 .habilidad .icono-habilidad {
@@ -220,12 +214,12 @@ section#habilidades h3 {
 .habilidad h4 {
     font-size: 28px;
     font-weight: 600;
-    color: #333;
+    color: white;
     margin: 30px 10px;
 }
 
 .textoDegradado {
-    background: linear-gradient(135deg, #8758ff, #000000); /* Colores del degradado */
+    background: linear-gradient(135deg, #ffffff, #ffffff); /* Colores del degradado */
     background-clip: text;
     -webkit-background-clip: text; 
     color: transparent;
@@ -233,11 +227,12 @@ section#habilidades h3 {
 }
 
 
-/* ----------------------------------------------------SECCIONDE LOS LEGUAJES---------------------------------- */
+/* ----------------------------------------------------SECCION DE LOS LEGUAJES---------------------------------- */
 
 section#lenguajes{
     padding: 40px 170px;
     position: relative;
+    background: #000000;
 }
 
 section .lenguajes-basicos h4{
@@ -245,6 +240,7 @@ section .lenguajes-basicos h4{
     font-size: 3vh;
     margin: 20% 0px;
     font-weight: 600;
+    color: white;
 }
 
 section .lenguajes-basicos img{
@@ -256,19 +252,19 @@ section .lenguajes-basicos img{
 /* CLASES OCULTAS */
 .slick-arrow{
     width: 5%;
-    height: 25%;
+    height: 20%;
     font-size: 1px;
     color: transparent;
-    
 }
 
 .slick-prev{
     position: absolute;   
     top: 18%;
     left: -4%;
-    background: url(../img/atras.png);
+    background: url(../img/atras-noche.png);
     background-size: 100%;   
     border: 0px solid transparent;
+    rotate: 180deg;
     
 }
 
@@ -276,15 +272,15 @@ section .lenguajes-basicos img{
     position: absolute;
     top: 18%;
     left: 100%;
-    background: url(../img/siguiente.png);
+    background: url(../img/atras-noche.png);
     background-size: 100%;   
     border: 0px solid transparent;
-
 }
 
 /* -----------------------------------------------------------------IDIOMAS---------------------------------------------------- */
 section#idiomas{
-    margin: 5% 0%;
+    background: black;
+    padding: 4% 0;
 }
 
 article h3.texto-idiomas{
@@ -315,17 +311,20 @@ article h3.texto-idiomas{
     padding: 2% 8%;
     font-size: 3vh;
     margin-bottom: 7%;
-    margin-left: 25%; 
+    margin-left: 25%;
+    color: white;
 }
 
 .escritura h4{
     font-size: 3vh;
     padding-top: 5%;
+    color: white;
 }
 
 .conversacion h4{
     font-size: 3vh;
-    margin: 5% 0%; 
+    margin: 5% 0%;
+    color: white; 
 }
 
 /* -----INGLES------ */
@@ -339,20 +338,23 @@ article h3.texto-idiomas{
     font-size: 3vh;
     margin-bottom: 7%;
     margin-left: 25%;
+    color: white;
 }
 
 /* --------------------------------------------------------------SECCION DEL PORTAFOLIO----------------------------------------------------------- */
 section#portafolio {
     width: 100%;
     height: auto;
-    margin-bottom: 6%;
+    padding-bottom: 6%;
     position: relative;
+    background: black;
 }
 
 section#portafolio h2{
     font-size: 5vh;
     text-align: center;
     text-shadow: 2px 5px 7px var(--second-color);
+    color: white;
 }
 
 section#portafolio img{
@@ -372,6 +374,7 @@ section .cartas{
 section#educacion{
     background: #C3AFF8;
     width: 100%;
+    background: black;
 }
 
 article .resumen1{
@@ -380,7 +383,7 @@ article .resumen1{
     font-weight: 900;
     text-align: center;
     color: transparent;
-    -webkit-text-stroke: 2px black; 
+    -webkit-text-stroke: 2px white; 
     text-transform: uppercase;
 }
 article .resumen2{
@@ -389,7 +392,7 @@ article .resumen2{
     font-weight: 900;
     text-align: center;
     color: transparent;
-    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.705); 
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.596); 
     text-transform: uppercase;
 }
 article .resumen3{
@@ -398,7 +401,7 @@ article .resumen3{
     font-weight: 900;
     text-align: center;
     color: transparent;
-    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.514); 
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.356); 
     text-transform: uppercase;
 }
 section h2.textoE{
@@ -406,6 +409,7 @@ section h2.textoE{
     text-align: center;
     margin-top:25%;
     margin-bottom: 5%;
+    color: white;
 }
 .estudios{
     margin-top: -14%;
@@ -413,14 +417,18 @@ section h2.textoE{
     display: inline;
 }
 
-.estudios img{
-    margin: 6%;
+.estudios i{
+    font-size: 3vh;
+    color: #5CB8E4;
+    margin: 7%;
+    padding-left: 10%;
 }
 .estudios h3{
     font-size: 3vh;
     padding-top: 4%;
     margin-left: -20%;
     align-items: center;
+    color: white;
 }
 
 .estudios p{
@@ -428,12 +436,15 @@ section h2.textoE{
     width: 100%;
     margin-left: -50%;
     padding-top: 3%;
+    color: white;
 }
 /* -------------------------------------------------TEMAS DE MI INTERES---------------------------- */
+
 .interes h2{
     text-align: center;
     padding: 4% 0;
     font-size: 4vh;
+    color: white;
 }
 .temas img{
     width: 160px;
@@ -445,11 +456,15 @@ section h2.textoE{
     font-size: 4vh;
     margin-top: 15%;
     margin-left: 20%;
+    color: white;
     
 }
 /* ------------------------------------------------------SECCION  DE LA EXPERIENCIA--------------------------- */
+.informacion-exp{
+    background: black;
+}
 .info-experiencia{
-    background: var(--primary-color);
+    background: #8758FF;
     margin-left: 3%;
     width: 40%;
     height: auto;
@@ -457,46 +472,53 @@ section h2.textoE{
 }
 
 #experiencia h2{
-    color: white;
+    color: black;
     padding: 30px 0;
     text-align: center;
 }
 
-#experiencia img{
+#experiencia i{
+    color: #5CB8E4;
+    font-size: 3vh;
     padding: 30px 0px;
+    padding-left: 35%;
 }
 
 #experiencia h3{
-    color: white;
+    color: black;
     font-size: 3vh;
     text-align:start;
     padding: 30px 0px;
 }
 
 #experiencia p{
-    color: white;
+    color: black;
     font-size: 3vh;
     padding: 30px 0px;
 }
 
 /* -----------------------------------------------------------------SECCION DE MIS PASATIEMPOS------------------------------- */
 section#pasatiempos{
-    margin-top: 2%;
-    margin-bottom: 10%;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    background: black;
 }
 
 section .passtime h2{
     font-size: 5vh;
     text-align: center;
     padding: 30px 0;
+    color: white;
 }
 section .img-pasatiempos img{
-    padding-left: 10%;   
+    padding-left: 10%;
+    
 }
 section .passtime h3{
     display: inline;
     font-size: 3vh;
     margin-left: 10%;
+    color: white;
     
 }
 
@@ -504,6 +526,202 @@ section .passtime h3{
 section .luna img{
     margin-left: 25%;
     margin-top: -15%;
-    rotate: 20deg;
+    rotate: 250deg;
+
 }
 
+/* RESPONSIVE TABLET */
+
+@media screen and ( min-width:770px) and (max-width:990px){
+    article.redes_sociales{
+        width: 9%;
+        height: 28vh;
+    }
+    .imagen img{
+        display: none;
+    }
+    #hero{
+        text-align: center;
+    }
+    .slick-arrow {
+        width: 5%;
+        height: 12.5%;
+    }
+    .español img{
+        padding-left: 45%;
+    }
+    .español h3{
+        margin-left: 33%; 
+    }
+    .ingles h3{
+        margin-left: 33%; 
+    }
+    .ingles img{
+        padding-left: 45%;
+    }
+    .escritura h4{
+        text-align: center;
+    }
+    .conversacion h4{
+        text-align: center;
+    }
+    section h2.textoE{
+        margin-top: 8%;
+    }
+    .estudios img{
+        display: none;
+    }
+    .estudios h3{
+      margin-left: 0;  
+      text-align: center;
+    }
+    .estudios p{
+        margin-left: 0;
+        text-align: center;
+    }
+    .info-experiencia{
+        width: 94%;
+        margin-top: 0;
+    }
+    #experiencia i{
+        display: none;
+    }
+    #experiencia h3{
+        text-align: center;
+    }
+    #experiencia p{
+        text-align: center;
+    }
+    .interes h2{
+        text-align: center;
+        padding: 4% 0;
+        font-size: 4vh;
+    }
+    .temas img{
+        margin-left: 40%;
+        
+    }
+    .temas h3{
+        font-size: 4vh;
+        margin-top: 3%;
+        text-align: center;
+        margin-right: 23%;
+    }
+
+    section .img-pasatiempos img{
+        padding: 0 9%; 
+    }
+    section .passtime h3 {
+        font-size: 2vh;
+        margin: 0 10%;
+        display: inline-block;
+    }
+    .luna{
+        display: none;
+    }
+
+}
+
+/* RESPONSIVE CELULAR */
+
+@media screen and ( min-width:320px) and (max-width:770px){
+    article.redes_sociales{
+        width: 9%;
+        height: 28vh;
+    }
+    .imagen img{
+        display: none;
+    }
+    #hero{
+        text-align: center;
+    }
+    .slick-arrow {
+        width: 20%;
+        height:35px;
+    }
+    section .lenguajes-basicos h4{
+        font-size: 2vh;
+    }
+    .español img{
+        padding-left: 45%;
+    }
+    .español h3{
+        margin-left: 33%; 
+    }
+    .ingles h3{
+        margin-left: 33%; 
+    }
+    .ingles img{
+        padding-left: 45%;
+    }
+    .escritura h4{
+        text-align: center;
+    }
+    .conversacion h4{
+        text-align: center;
+    }
+    section h2.textoE{
+        margin-top: 8%;
+    }
+    article .resumen1, .resumen2, .resumen3{
+        display: none;
+    }
+
+    .estudios i{
+        display: none;
+    }
+    .estudios h3{
+      margin-left: 0;  
+      text-align: center;
+    }
+    .estudios p{
+        margin-left: 0;
+        text-align: center;
+    }
+    .info-experiencia{
+        width: 94%;
+        margin-top: 0;
+    }
+    #experiencia i{
+        display: none;
+    }
+    #experiencia h2{
+        text-align: center;
+        font-size: 3vh;
+    }
+    #experiencia h3{
+        text-align: center;
+    }
+    #experiencia p{
+        text-align: center;
+    }
+    .interes h2{
+        text-align: center;
+        padding: 4% 0;
+        font-size: 4vh;
+    }
+    .temas h3{
+        font-size: 4vh;
+        text-align: center;
+        margin-left: 0;
+    }
+    .temas img{
+        margin-left: 35%;
+    }
+    section#pasatiempos h2{
+        font-size: 3vh;
+    }
+    section .img-pasatiempos img{
+        display: block; 
+        margin: 6% 30%;  
+    }
+    section .passtime h3 {
+        font-size: 2vh;
+        display: none;
+        padding-left: 25px;
+    }
+    .luna{
+        display: none;
+    }
+
+}

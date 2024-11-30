@@ -97,13 +97,12 @@ article.redes_sociales{
     margin-top: -30px;
 }
 
-article.redes_sociales img{
-    width: 40px;
-    height: 40px;
+article.redes_sociales i{
+    color: white;
+    font-size: 40px;
     margin-top: 33px;
     margin-left: 3px;
     margin-right: 3px;
-
 
 }
 /* -----------------------DESCARGAR HOJA DE VIDA--------- */
@@ -258,7 +257,6 @@ section .lenguajes-basicos img{
     height: 25%;
     font-size: 1px;
     color: transparent;
-    
 }
 
 .slick-prev{
@@ -278,7 +276,6 @@ section .lenguajes-basicos img{
     background: url(../img/siguiente.png);
     background-size: 100%;   
     border: 0px solid transparent;
-
 }
 
 /* -----------------------------------------------------------------IDIOMAS---------------------------------------------------- */
@@ -412,8 +409,11 @@ section h2.textoE{
     display: inline;
 }
 
-.estudios img{
-    margin: 6%;
+.estudios i{
+    font-size: 3vh;
+    color: #5CB8E4;
+    margin: 7%;
+    padding-left: 10%;
 }
 .estudios h3{
     font-size: 3vh;
@@ -462,8 +462,11 @@ section h2.textoE{
     text-align: center;
 }
 
-#experiencia img{
+#experiencia i{
+    color: #5CB8E4;
+    font-size: 3vh;
     padding: 30px 0px;
+    padding-left: 35%;
 }
 
 #experiencia h3{
@@ -561,7 +564,7 @@ section .luna img{
         width: 94%;
         margin-top: 0;
     }
-    #experiencia img{
+    #experiencia i{
         display: none;
     }
     #experiencia h3{
@@ -645,7 +648,7 @@ section .luna img{
         display: none;
     }
 
-    .estudios img{
+    .estudios i{
         display: none;
     }
     .estudios h3{
@@ -660,7 +663,7 @@ section .luna img{
         width: 94%;
         margin-top: 0;
     }
-    #experiencia img{
+    #experiencia i{
         display: none;
     }
     #experiencia h2{
