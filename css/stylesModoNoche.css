@@ -103,16 +103,15 @@ section#sobreMi{
 article.redes_sociales{
     background: #682cff;
     border-radius: 25px 0px 0px 25px;
-    width: 15%;
+    width: 17%;
     height: 28vh;
     margin-top: -30px;
 }
 
 article.redes_sociales i{
     color: black;
-    font-size: 40px;
+    font-size: 4vh;
     margin-top: 33px;
-    margin-left: 3px;
     margin-right: 3px;
 
 }
@@ -121,7 +120,7 @@ article.foto-perfil{
     background: #8758FF;
     margin-top: -55px;
     border-radius: 10px;
-    width: 85%;
+    width: 83%;
     height: 100%;
     position: relative;
 }
@@ -565,6 +564,12 @@ section .luna img{
     #hero{
         text-align: center;
     }
+    section article h1 {
+        text-align: center;
+    }
+    section article h2 {
+        text-align: center;
+    }
     .slick-arrow {
         width: 5%;
         height: 12.5%;
@@ -656,6 +661,19 @@ section .luna img{
     }
     #hero{
         text-align: center;
+    }
+    section article h1 {
+        text-align: center;
+    }
+    section article h2 {
+        text-align: center;
+    }
+    article.redes_sociales{
+        height: 23vh;
+    }
+    article.redes_sociales i{
+        font-size: 3vh;
+        margin-left: 0;
     }
     .slick-arrow {
         width: 5%;
